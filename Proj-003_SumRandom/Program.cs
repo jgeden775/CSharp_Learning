@@ -1,0 +1,11 @@
+﻿Console.Clear();
+int numberA = new Random().Next(0, 100);
+int numberB = new Random().Next(0, 100);
+int sum = numberA + numberB;
+Console.Write(">> Первое число: ");
+Console.WriteLine(numberA);
+Console.Write(">> Второе число: ");
+Console.WriteLine(numberB);
+Console.Write(">> Сумма этих чисел: ");
+Console.WriteLine(sum);
+Console.WriteLine(" ");
