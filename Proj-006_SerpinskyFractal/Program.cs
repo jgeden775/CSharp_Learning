@@ -1,4 +1,4 @@
-﻿Console.Clear();
+Console.Clear();
 
 int xa = 40, ya = 1,
     xb = 1, yb = 30,
@@ -14,7 +14,7 @@ Console.WriteLine("A");
 int x = xa, y = ya;
 int count = 0;
 
-if (count < 100)
+while (count < 10000)
 {
     int point = new Random().Next(0, 3); // Интервал из трёх чисел - 0, 1, 2
     if (point == 0)
