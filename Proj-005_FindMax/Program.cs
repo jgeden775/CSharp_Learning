@@ -1,0 +1,31 @@
+﻿Console.Clear();
+int a = new Random().Next(0, 30);
+int b = new Random().Next(0, 30);
+int c = new Random().Next(0, 30);
+int d = new Random().Next(0, 30);
+int e = new Random().Next(0, 30);
+int max = a;
+
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (e > max) max = e;
+
+Console.WriteLine(">> Даны пять случайных чисел:");
+Console.WriteLine(" ");
+Console.Write("Число 1: ");
+Console.WriteLine(a);
+Console.Write("Число 2: ");
+Console.WriteLine(b);
+Console.Write("Число 3: ");
+Console.WriteLine(c);
+Console.Write("Число 4: ");
+Console.WriteLine(d);
+Console.Write("Число 5: ");
+Console.WriteLine(e);
+Console.WriteLine(" ");
+Console.WriteLine("Находим, из них, максимальное число >>");
+Console.WriteLine(" ");
+Console.Write(">> Максимальное число: ");
+Console.WriteLine(max);
+Console.WriteLine(" ");
