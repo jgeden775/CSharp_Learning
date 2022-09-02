@@ -8,4 +8,4 @@ Console.Write(">> Второе число: ");
 Console.WriteLine(numberB);
 Console.Write(">> Сумма этих чисел: ");
 Console.WriteLine(sum);
-Console.WriteLine(" ");
+Console.WriteLine();

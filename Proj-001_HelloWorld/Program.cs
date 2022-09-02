@@ -1,1 +1,3 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.Clear();
+Console.WriteLine("Hello, World!");
+Console.WriteLine();

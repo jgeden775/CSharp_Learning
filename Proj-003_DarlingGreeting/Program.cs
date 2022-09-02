@@ -11,4 +11,4 @@ else
     Console.Write("Hello, ");
     Console.WriteLine(username + "!");
 }
-Console.WriteLine(" ");
+Console.WriteLine();
