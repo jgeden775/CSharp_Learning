@@ -1,17 +1,17 @@
 ﻿Console.Clear();
 Console.WriteLine("<< Функция f(x) = x * x + 1 >>");
 Console.WriteLine();
-Console.WriteLine("Введите целое число x: ");
+Console.WriteLine("Введите число x: ");
 string name = Console.ReadLine();
-int x = Convert.ToInt32(name);
+double x = Convert.ToDouble(name);
 
-int Fx(int arg)
+double Fx(double arg)
 {
-    int result = arg * arg + 1;
+    double result = arg * arg + 1;
     return result;
 }
 
-int fxnum = Fx(x);
+var fxnum = Fx(x);
 
 Console.WriteLine();
 Console.WriteLine($"Результат: {fxnum}");
